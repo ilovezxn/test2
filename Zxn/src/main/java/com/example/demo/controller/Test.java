@@ -16,4 +16,10 @@ public class Test {
 	public String show() {
 		return "good";
 	}
+	@GetMapping("/dev")
+	@ResponseBody
+	public String dev() {
+		return "dev";
+	}
+	
 }
