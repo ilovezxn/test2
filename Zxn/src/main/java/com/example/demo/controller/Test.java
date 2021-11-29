@@ -11,4 +11,9 @@ public class Test {
 	public String say() {
 		return "hello";
 	}
+	@GetMapping("/show")
+	@ResponseBody
+	public String show() {
+		return "good";
+	}
 }
